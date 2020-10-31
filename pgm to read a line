@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    char c[1000];
+    char a[1000];
     FILE *fptr;
     if ((fptr = fopen("program.txt", "r")) == NULL)
     {
@@ -10,8 +10,8 @@ int main()
         exit(1)      
     }
    
-    scanf(fptr,"%[^\n]", c);
-    printf("Data from the file:\n%s", c);
+    scanf(fptr,"%[^\n]", a);
+    printf("Data from the file:\n%s", a);
     close(fptr)
     
     return 0;
