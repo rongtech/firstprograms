@@ -13,6 +13,6 @@ int main()
     scanf(fptr,"%[^\n]", a);
     printf("Data from the file:\n%s", a);
     close(fptr)
-    printf("Data from the file:\n%s", a);
+    
     return 0;
 }
