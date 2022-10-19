@@ -12,7 +12,7 @@ int main()
    
    {
        if(ch == str[i])
-           ++frequency;
+           --frequency;
    }
    printf("Frequency of %c = %d", chh, frequency);
    return 0;
