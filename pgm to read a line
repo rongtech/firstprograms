@@ -10,7 +10,7 @@ int main()
         exit(1)      
     }
    
-    scanf(fptr, %[^\n]", a);
+    scanf(fptr, %[^\n]", a)
     printf("Data files:\n%s", a);
     close(fptr)
     
