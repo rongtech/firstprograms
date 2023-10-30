@@ -6,5 +6,5 @@ int main()
     printf("Enter a value: ")
     scanf("%s", s);
     for(j = 0; s[j] != "\0"; ++j)
-    printf("Length of string: %d", j);
+    printf("Length of the string: %d", j);
 }
